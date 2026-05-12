@@ -36,9 +36,8 @@ const layout = {
 
 ## 📺 Live Demo
 
-You can view the live demo (Composition API) here:  
-👉 **[Live Demo](https://edvanta.github.io/vue-split-layout/)**
-
+You can view the live demo (Composition API) here:
+👉 **[Live Demo](https://thoughtjumper.github.io/vue-split-layout-v3/)**
 *(Note: The link above assumes GitHub Pages hosting. You can also run it locally: `npm run dev`)*
 
 ---
