@@ -40,7 +40,7 @@ The simplest way to use the layout is by providing a `splits` configuration and 
 
 <script setup>
 import { reactive } from 'vue'
-import { Layout, Pane } from '@edvanta/vue-split-layout'
+import { Layout, Pane } from '@edvanta/vue-split-layout-v3'
 
 const layoutConfig = reactive({
   dir: 'horizontal', // 'horizontal' or 'vertical'
@@ -106,7 +106,7 @@ To add and remove panes dynamically, you need to manage a list of data in your c
 
 <script setup>
 import { ref, reactive, nextTick } from 'vue'
-import { Layout, Pane } from '@edvanta/vue-split-layout'
+import { Layout, Pane } from '@edvanta/vue-split-layout-v3'
 
 const layoutRef = ref(null)
 const dynamicPanes = ref([])
@@ -182,7 +182,7 @@ export const useLayoutStore = defineStore('layout', {
 ```vue
 <script setup>
 import { useLayoutStore } from './stores/layout'
-import { Layout, Pane } from '@edvanta/vue-split-layout'
+import { Layout, Pane } from '@edvanta/vue-split-layout-v3'
 
 const store = useLayoutStore()
 
