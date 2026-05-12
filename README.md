@@ -1,4 +1,4 @@
-# @edvanta/vue-split-layout
+# @edvanta/vue-split-layout-v3
 
 A modern, high-performance Vue 3 port of the original [vue-split-layout](https://github.com/vue-hxs/vue-split-layout) by Luis Figueiredo.
 
@@ -9,7 +9,7 @@ This package provides a flexible, draggable, and resizable split layout system d
 ### Installation
 
 ```bash
-npm install @edvanta/vue-split-layout
+npm install @edvanta/vue-split-layout-v3
 ```
 
 ### Basic Usage
@@ -23,8 +23,8 @@ npm install @edvanta/vue-split-layout
 </template>
 
 <script setup>
-import { Layout, Pane } from '@edvanta/vue-split-layout'
-import '@edvanta/vue-split-layout/style.css'
+import { Layout, Pane } from '@edvanta/vue-split-layout-v3'
+import '@edvanta/vue-split-layout-v3/style.css'
 
 const layout = {
   dir: 'horizontal',

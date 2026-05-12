@@ -1,4 +1,4 @@
-# @edvanta/vue-split-layout — Full Documentation
+# @edvanta/vue-split-layout-v3 — Full Documentation
 
 A modern, high-performance Vue 3 port of the original [vue-split-layout](https://github.com/vue-hxs/vue-split-layout). This guide covers installation, core concepts, advanced usage, and integration with Pinia.
 
@@ -8,14 +8,14 @@ A modern, high-performance Vue 3 port of the original [vue-split-layout](https:/
 
 ### Install via NPM
 ```bash
-npm install @edvanta/vue-split-layout
+npm install @edvanta/vue-split-layout-v3
 ```
 
 ### Import Styles
 You must import the structural CSS once in your project (usually in `main.js` or `App.vue`):
 
 ```javascript
-import '@edvanta/vue-split-layout/style.css'
+import '@edvanta/vue-split-layout-v3/style.css'
 ```
 
 ---
