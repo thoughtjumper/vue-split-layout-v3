@@ -37,6 +37,7 @@ export default defineConfig(({ mode }) => {
 
   // Demo build / dev server
   return {
+    base: '/vue-split-layout/',
     plugins: [vue(), vueJsx()],
     resolve: {
       extensions: ['.js', '.jsx', '.vue', '.json']
