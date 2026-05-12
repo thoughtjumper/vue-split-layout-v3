@@ -19,12 +19,12 @@
     "./style.css": "./dist/style.css"
   },
   "author": {
-    "name": "Luis Figueiredo",
-    "email": "luisf@hexasoftware.com"
+    "name": "Nischay Sharma",
+    "email": "contact@nischaysharma.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.desktop.com/thoughtjumper/vue-split-layout-v3"
+    "url": "https://github.com/thoughtjumper/vue-split-layout-v3"
   },
   "keywords": [
     "vue",
