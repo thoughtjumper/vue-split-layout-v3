@@ -1,0 +1,48 @@
+{
+  "name": "@edvanta/vue-split-layout",
+  "description": "A flexible, draggable, and resizable split layout system for Vue 3. Ported from vue-split-layout.",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "main": "dist/vue-split-layout.js",
+  "module": "dist/vue-split-layout.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-split-layout.es.js",
+      "require": "./dist/vue-split-layout.js"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "author": {
+    "name": "Luis Figueiredo",
+    "email": "luisf@hexasoftware.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vue-hxs/vue-split-layout"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --mode lib",
+    "build-demo": "vite build",
+    "preview": "vite preview",
+    "prepare": "npm run build"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.6.2",
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "sass": "^1.70.0",
+    "vite": "^5.1.4",
+    "vue": "^3.4.21"
+  },
+  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"]
+}
