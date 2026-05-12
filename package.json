@@ -24,8 +24,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vue-hxs/vue-split-layout"
+    "url": "https://github.desktop.com/thoughtjumper/vue-split-layout-v3"
   },
+  "keywords": [
+    "vue",
+    "vue3",
+    "split",
+    "layout",
+    "resizable",
+    "draggable",
+    "pane",
+    "ui"
+  ],
   "license": "MIT",
   "scripts": {
     "dev": "vite",
